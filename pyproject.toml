@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "text-analysis-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["suhaibshaikh03 <suhaibshaikh2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.35"
+langchain-core = "^0.3.10"
+langchain = "^0.3.3"
+langchain-google-genai = "^2.0.1"
+python-dotenv = "^1.0.1"
+ipython = "^8.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
