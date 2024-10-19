@@ -43,7 +43,7 @@ The pipeline flow is managed using LangGraph's stateful graph execution, ensurin
 - **LangChain**
 - **Google Gemini API**
 - **Python 3.x**
-- Additional Python libraries listed in `requirements.txt`.
+- Additional Python libraries listed in `pyproject.toml`.
 
 ## Usage
 
