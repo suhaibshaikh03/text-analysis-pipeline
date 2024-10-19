@@ -52,8 +52,8 @@ The pipeline flow is managed using LangGraph's stateful graph execution, ensurin
 3. Run the pipeline to classify, extract entities, and summarize any input text.
 
 ```bash
-pip install -r requirements.txt
-python main.py
+poetry add (all packages with spaces mention here)
+poetry run python main.py
 ```
 
 ## Conclusion
